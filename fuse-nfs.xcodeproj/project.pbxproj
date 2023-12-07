@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		830A4E4229C06FAD00D0DF84 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = EFD991EE29810E2300169951 /* buffer.c */; };
+		EFD9920229810EA800169951 /* ulockmgr.h in Headers */ = {isa = PBXBuildFile; fileRef = EFD991F429810EA800169951 /* ulockmgr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD9920329810EA800169951 /* fuse_lowlevel.h in Headers */ = {isa = PBXBuildFile; fileRef = EFD991F529810EA800169951 /* fuse_lowlevel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD9920429810EA800169951 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = EFD991F629810EA800169951 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD9920529810EA800169951 /* fuse_common_compat.h in Headers */ = {isa = PBXBuildFile; fileRef = EFD991F829810EA800169951 /* fuse_common_compat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD9920729810EA800169951 /* fuse.h in Headers */ = {isa = PBXBuildFile; fileRef = EFD991FB29810EA800169951 /* fuse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD9920829810EA800169951 /* fuse_common.h in Headers */ = {isa = PBXBuildFile; fileRef = EFD991FC29810EA800169951 /* fuse_common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD9920929810EA800169951 /* fuse_lowlevel_compat.h in Headers */ = {isa = PBXBuildFile; fileRef = EFD991FD29810EA800169951 /* fuse_lowlevel_compat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD9920A29810EA800169951 /* fuse_kernel.h in Headers */ = {isa = PBXBuildFile; fileRef = EFD991FE29810EA800169951 /* fuse_kernel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD9920B29810EA800169951 /* fuse_compat.h in Headers */ = {isa = PBXBuildFile; fileRef = EFD991FF29810EA800169951 /* fuse_compat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD9920C29810EA800169951 /* cuse_lowlevel.h in Headers */ = {isa = PBXBuildFile; fileRef = EFD9920029810EA800169951 /* cuse_lowlevel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD9920D29810EA800169951 /* fuse_opt.h in Headers */ = {isa = PBXBuildFile; fileRef = EFD9920129810EA800169951 /* fuse_opt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD992432981521900169951 /* helper.c in Sources */ = {isa = PBXBuildFile; fileRef = EFD9921429810F0200169951 /* helper.c */; };
+		EFD992452981522800169951 /* cuse_lowlevel.c in Sources */ = {isa = PBXBuildFile; fileRef = EFD9922029810F0200169951 /* cuse_lowlevel.c */; };
+		EFD992472981523B00169951 /* fuse_darwin.c in Sources */ = {isa = PBXBuildFile; fileRef = EFD9921929810F0200169951 /* fuse_darwin.c */; };
+		EFD992482981524000169951 /* fuse_kern_chan.c in Sources */ = {isa = PBXBuildFile; fileRef = EFD9921629810F0200169951 /* fuse_kern_chan.c */; };
+		EFD992492981524400169951 /* fuse_loop_mt.c in Sources */ = {isa = PBXBuildFile; fileRef = EFD9921B29810F0200169951 /* fuse_loop_mt.c */; };
+		EFD9924A2981524800169951 /* fuse_loop.c in Sources */ = {isa = PBXBuildFile; fileRef = EFD9921829810F0200169951 /* fuse_loop.c */; };
+		EFD9924B2981524C00169951 /* fuse_lowlevel.c in Sources */ = {isa = PBXBuildFile; fileRef = EFD9920F29810F0200169951 /* fuse_lowlevel.c */; };
+		EFD9924C2981525500169951 /* fuse_mt.c in Sources */ = {isa = PBXBuildFile; fileRef = EFD9921229810F0200169951 /* fuse_mt.c */; };
+		EFD9924D2981525B00169951 /* fuse_opt.c in Sources */ = {isa = PBXBuildFile; fileRef = EFD9921329810F0200169951 /* fuse_opt.c */; };
+		EFD9924E2981526000169951 /* fuse_session.c in Sources */ = {isa = PBXBuildFile; fileRef = EFD9921029810F0200169951 /* fuse_session.c */; };
+		EFD9924F2981526500169951 /* fuse_signals.c in Sources */ = {isa = PBXBuildFile; fileRef = EFD9922129810F0300169951 /* fuse_signals.c */; };
+		EFD992512981527300169951 /* mount_darwin.c in Sources */ = {isa = PBXBuildFile; fileRef = EFD9921C29810F0200169951 /* mount_darwin.c */; };
+		EFD9925C2981770600169951 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD9925B2981770600169951 /* CoreFoundation.framework */; };
+		EFD9925E2981770E00169951 /* DiskArbitration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD9925D2981770E00169951 /* DiskArbitration.framework */; };
+		EFD992602981771900169951 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD9925F2981771900169951 /* libiconv.tbd */; };
+		EFD9926329817B4E00169951 /* fuse.c in Sources */ = {isa = PBXBuildFile; fileRef = EFD9921129810F0200169951 /* fuse.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EFD991DA29810BFB00169951 /* libfuse-nfs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libfuse-nfs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD991E529810DBA00169951 /* iconv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = iconv.c; sourceTree = "<group>"; };
+		EFD991E629810DBA00169951 /* subdir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = subdir.c; sourceTree = "<group>"; };
+		EFD991E729810DBA00169951 /* threadid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = threadid.c; sourceTree = "<group>"; };
+		EFD991E829810DBA00169951 /* volicon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = volicon.c; sourceTree = "<group>"; };
+		EFD991EE29810E2300169951 /* buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = buffer.c; sourceTree = "<group>"; };
+		EFD991F029810E3300169951 /* fuse_i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fuse_i.h; sourceTree = "<group>"; };
+		EFD991F429810EA800169951 /* ulockmgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ulockmgr.h; sourceTree = "<group>"; };
+		EFD991F529810EA800169951 /* fuse_lowlevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fuse_lowlevel.h; sourceTree = "<group>"; };
+		EFD991F629810EA800169951 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		EFD991F829810EA800169951 /* fuse_common_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fuse_common_compat.h; sourceTree = "<group>"; };
+		EFD991FB29810EA800169951 /* fuse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fuse.h; sourceTree = "<group>"; };
+		EFD991FC29810EA800169951 /* fuse_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fuse_common.h; sourceTree = "<group>"; };
+		EFD991FD29810EA800169951 /* fuse_lowlevel_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fuse_lowlevel_compat.h; sourceTree = "<group>"; };
+		EFD991FE29810EA800169951 /* fuse_kernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fuse_kernel.h; sourceTree = "<group>"; };
+		EFD991FF29810EA800169951 /* fuse_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fuse_compat.h; sourceTree = "<group>"; };
+		EFD9920029810EA800169951 /* cuse_lowlevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cuse_lowlevel.h; sourceTree = "<group>"; };
+		EFD9920129810EA800169951 /* fuse_opt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fuse_opt.h; sourceTree = "<group>"; };
+		EFD9920F29810F0200169951 /* fuse_lowlevel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fuse_lowlevel.c; sourceTree = "<group>"; };
+		EFD9921029810F0200169951 /* fuse_session.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fuse_session.c; sourceTree = "<group>"; };
+		EFD9921129810F0200169951 /* fuse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fuse.c; sourceTree = "<group>"; };
+		EFD9921229810F0200169951 /* fuse_mt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fuse_mt.c; sourceTree = "<group>"; };
+		EFD9921329810F0200169951 /* fuse_opt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fuse_opt.c; sourceTree = "<group>"; };
+		EFD9921429810F0200169951 /* helper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = helper.c; sourceTree = "<group>"; };
+		EFD9921629810F0200169951 /* fuse_kern_chan.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fuse_kern_chan.c; sourceTree = "<group>"; };
+		EFD9921729810F0200169951 /* fuse_misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fuse_misc.h; sourceTree = "<group>"; };
+		EFD9921829810F0200169951 /* fuse_loop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fuse_loop.c; sourceTree = "<group>"; };
+		EFD9921929810F0200169951 /* fuse_darwin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fuse_darwin.c; sourceTree = "<group>"; };
+		EFD9921A29810F0200169951 /* fuse_darwin_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fuse_darwin_private.h; sourceTree = "<group>"; };
+		EFD9921B29810F0200169951 /* fuse_loop_mt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fuse_loop_mt.c; sourceTree = "<group>"; };
+		EFD9921C29810F0200169951 /* mount_darwin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mount_darwin.c; sourceTree = "<group>"; };
+		EFD9922029810F0200169951 /* cuse_lowlevel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cuse_lowlevel.c; sourceTree = "<group>"; };
+		EFD9922129810F0300169951 /* fuse_signals.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fuse_signals.c; sourceTree = "<group>"; };
+		EFD9923D29811A0000169951 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EFD9925B2981770600169951 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		EFD9925D2981770E00169951 /* DiskArbitration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiskArbitration.framework; path = System/Library/Frameworks/DiskArbitration.framework; sourceTree = SDKROOT; };
+		EFD9925F2981771900169951 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFD991D829810BFB00169951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD992602981771900169951 /* libiconv.tbd in Frameworks */,
+				EFD9925E2981770E00169951 /* DiskArbitration.framework in Frameworks */,
+				EFD9925C2981770600169951 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFD991D129810BFB00169951 = {
+			isa = PBXGroup;
+			children = (
+				EFD991F329810EA800169951 /* include */,
+				EFD991F029810E3300169951 /* fuse_i.h */,
+				EFD9921A29810F0200169951 /* fuse_darwin_private.h */,
+				EFD9921729810F0200169951 /* fuse_misc.h */,
+				EFD99255298162BE00169951 /* mods */,
+				EFD9923C29811A0000169951 /* demo */,
+				EFD991DB29810BFB00169951 /* Products */,
+				EFD9925A2981770600169951 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFD991DB29810BFB00169951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFD991DA29810BFB00169951 /* libfuse-nfs.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFD991ED29810DF400169951 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				EFD991E529810DBA00169951 /* iconv.c */,
+				EFD991E629810DBA00169951 /* subdir.c */,
+				EFD991E729810DBA00169951 /* threadid.c */,
+				EFD991E829810DBA00169951 /* volicon.c */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		EFD991F329810EA800169951 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				EFD991FB29810EA800169951 /* fuse.h */,
+				EFD991F529810EA800169951 /* fuse_lowlevel.h */,
+				EFD991F429810EA800169951 /* ulockmgr.h */,
+				EFD991F629810EA800169951 /* config.h */,
+				EFD991F829810EA800169951 /* fuse_common_compat.h */,
+				EFD991FC29810EA800169951 /* fuse_common.h */,
+				EFD991FD29810EA800169951 /* fuse_lowlevel_compat.h */,
+				EFD991FE29810EA800169951 /* fuse_kernel.h */,
+				EFD991FF29810EA800169951 /* fuse_compat.h */,
+				EFD9920029810EA800169951 /* cuse_lowlevel.h */,
+				EFD9920129810EA800169951 /* fuse_opt.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		EFD9923C29811A0000169951 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFD9923D29811A0000169951 /* main.c */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		EFD99255298162BE00169951 /* mods */ = {
+			isa = PBXGroup;
+			children = (
+				EFD991ED29810DF400169951 /* modules */,
+				EFD991EE29810E2300169951 /* buffer.c */,
+				EFD9921929810F0200169951 /* fuse_darwin.c */,
+				EFD9921B29810F0200169951 /* fuse_loop_mt.c */,
+				EFD9921329810F0200169951 /* fuse_opt.c */,
+				EFD9921429810F0200169951 /* helper.c */,
+				EFD9921C29810F0200169951 /* mount_darwin.c */,
+				EFD9922029810F0200169951 /* cuse_lowlevel.c */,
+				EFD9921629810F0200169951 /* fuse_kern_chan.c */,
+				EFD9920F29810F0200169951 /* fuse_lowlevel.c */,
+				EFD9921029810F0200169951 /* fuse_session.c */,
+				EFD9921129810F0200169951 /* fuse.c */,
+				EFD9921829810F0200169951 /* fuse_loop.c */,
+				EFD9921229810F0200169951 /* fuse_mt.c */,
+				EFD9922129810F0300169951 /* fuse_signals.c */,
+			);
+			path = mods;
+			sourceTree = "<group>";
+		};
+		EFD9925A2981770600169951 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFD9925F2981771900169951 /* libiconv.tbd */,
+				EFD9925D2981770E00169951 /* DiskArbitration.framework */,
+				EFD9925B2981770600169951 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EFD991D629810BFB00169951 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD9920C29810EA800169951 /* cuse_lowlevel.h in Headers */,
+				EFD9920229810EA800169951 /* ulockmgr.h in Headers */,
+				EFD9920B29810EA800169951 /* fuse_compat.h in Headers */,
+				EFD9920D29810EA800169951 /* fuse_opt.h in Headers */,
+				EFD9920329810EA800169951 /* fuse_lowlevel.h in Headers */,
+				EFD9920A29810EA800169951 /* fuse_kernel.h in Headers */,
+				EFD9920929810EA800169951 /* fuse_lowlevel_compat.h in Headers */,
+				EFD9920529810EA800169951 /* fuse_common_compat.h in Headers */,
+				EFD9920429810EA800169951 /* config.h in Headers */,
+				EFD9920829810EA800169951 /* fuse_common.h in Headers */,
+				EFD9920729810EA800169951 /* fuse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EFD991D929810BFB00169951 /* fuse-nfs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD991DE29810BFB00169951 /* Build configuration list for PBXNativeTarget "fuse-nfs" */;
+			buildPhases = (
+				EFD991D629810BFB00169951 /* Headers */,
+				EFD991D729810BFB00169951 /* Sources */,
+				EFD991D829810BFB00169951 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fuse-nfs";
+			productName = "fuse-nfs";
+			productReference = EFD991DA29810BFB00169951 /* libfuse-nfs.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFD991D229810BFB00169951 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EFD991D929810BFB00169951 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = EFD991D529810BFB00169951 /* Build configuration list for PBXProject "fuse-nfs" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFD991D129810BFB00169951;
+			productRefGroup = EFD991DB29810BFB00169951 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFD991D929810BFB00169951 /* fuse-nfs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFD991D729810BFB00169951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD992512981527300169951 /* mount_darwin.c in Sources */,
+				EFD9924D2981525B00169951 /* fuse_opt.c in Sources */,
+				EFD992452981522800169951 /* cuse_lowlevel.c in Sources */,
+				EFD992482981524000169951 /* fuse_kern_chan.c in Sources */,
+				EFD992472981523B00169951 /* fuse_darwin.c in Sources */,
+				EFD992432981521900169951 /* helper.c in Sources */,
+				EFD9924B2981524C00169951 /* fuse_lowlevel.c in Sources */,
+				830A4E4229C06FAD00D0DF84 /* buffer.c in Sources */,
+				EFD9924F2981526500169951 /* fuse_signals.c in Sources */,
+				EFD9924C2981525500169951 /* fuse_mt.c in Sources */,
+				EFD9924A2981524800169951 /* fuse_loop.c in Sources */,
+				EFD9926329817B4E00169951 /* fuse.c in Sources */,
+				EFD9924E2981526000169951 /* fuse_session.c in Sources */,
+				EFD992492981524400169951 /* fuse_loop_mt.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EFD991DC29810BFB00169951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EFD991DD29810BFB00169951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EFD991DF29810BFB00169951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_CFLAGS = (
+					"-D_FILE_OFFSET_BITS=64",
+					"-DFUSE_USE_VERSION=26",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EFD991E029810BFB00169951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_CFLAGS = (
+					"-D_FILE_OFFSET_BITS=64",
+					"-DFUSE_USE_VERSION=26",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFD991D529810BFB00169951 /* Build configuration list for PBXProject "fuse-nfs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD991DC29810BFB00169951 /* Debug */,
+				EFD991DD29810BFB00169951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD991DE29810BFB00169951 /* Build configuration list for PBXNativeTarget "fuse-nfs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD991DF29810BFB00169951 /* Debug */,
+				EFD991E029810BFB00169951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFD991D229810BFB00169951 /* Project object */;
+}
